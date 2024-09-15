@@ -28,7 +28,11 @@ To use this LaTeX template, you'll need to have a LaTeX distribution installed. 
 
 Note that by changing the "Main document" option, We can place several weeks' worth of assignments under the same Overleaf project. And with the online editor Overleaf, we can work on our assignments from different devices without the need to configure local LaTeX environment (just using your browser!).
 
-## Reference:
+## Preview
+
+![](assets/preview.png)
+
+## Reference
 
 - https://zhuanlan.zhihu.com/p/381769429
 - My previous LaTeX templates.
