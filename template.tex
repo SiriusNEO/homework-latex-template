@@ -1,0 +1,67 @@
+\documentclass[12pt, a4paper, oneside]{article}
+\usepackage{amsmath, amsthm, amssymb, bm, color, graphicx, framed, hyperref, mathrsfs}
+
+\title{\textbf{Design and Analysis of Algorithms}}
+\author{Chaofan Lin}
+\date{\today}
+
+\definecolor{shadecolor}{RGB}{241, 241, 255}
+\linespread{1.5}
+
+% Version 1: Use counter for the problem name.
+% \newcounter{problemname}
+% \newenvironment{problem}{
+%     \begin{shaded}\stepcounter{problemname}\par\noindent\textsc{Problem \arabic{problemname}. }
+% }
+% {\end{shaded}\par}
+% Version 2: Pass the problem name.
+\newenvironment{problem}[1]{
+    \begin{shaded}\par\noindent\textsc{Problem {#1}}
+}
+{\end{shaded}\par}
+
+\newenvironment{solution}{\par\noindent\textsc{Solution. }}{\\\par}
+\newenvironment{note}[1]{
+    \par\noindent\textsc{Note of Problem {#1}. }
+}
+{\\\par}
+
+\begin{document}
+
+\maketitle
+
+\begin{problem}{1.1}
+Decide whether you think the following statement is true or false. If it is true, give a short explanation. If it is false, give a counterexample.
+
+True or false? In every instance of the Stable Matching Problem, there is a
+stable matching containing a pair $(m, w)$ such that $m$ is ranked first on the
+preference list of $w$ and $w$ is ranked first on the preference list of $m$.
+\end{problem}
+
+\begin{solution}
+    Write solution here.
+\end{solution}
+
+\begin{note}{1.1}
+    Write note here.
+\end{note}
+
+\begin{problem}{1.2}
+Decide whether you think the following statement is true or false. If it is
+true, give a short explanation. If it is false, give a cotmterexample.
+
+True or false? Consider an instance of the Stable Matching Problem in which
+there exists a man $m$ and a woman $w$ such that $m$ is ranked first on the
+preference list of $w$ and $w$ is ranked first on the preference list of $m$. Then in
+every stable matching S for this instance, the pair $(m, w)$ belongs to $S$.
+\end{problem}
+
+\begin{solution}
+    Write solution here.
+\end{solution}
+
+\begin{note}{1.2}
+    Write note here.
+\end{note}
+
+\end{document}
